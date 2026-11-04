@@ -13,11 +13,12 @@ h1{font-size:1.5em;margin:0}
 p.sub{color:var(--m);margin:4px 0 24px}
 p.txt{text-align:justify;margin:0 0 12px}
 h2{font-size:1.05em;margin:32px 0 12px;color:var(--m);text-transform:uppercase;letter-spacing:.06em}
-a.card{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--l);border-radius:14px;padding:14px 16px;text-decoration:none;color:inherit;margin-bottom:10px}
+.card{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--l);border-radius:14px;padding:14px 16px;text-decoration:none;color:inherit;margin-bottom:10px}
 a.card:hover{border-color:var(--v)}
-a.card .em{font-size:26px;flex:0 0 auto}
-a.card b{display:block}
-a.card small{color:var(--m);display:block;text-align:justify}
+.card .em{font-size:26px;flex:0 0 36px;text-align:center}
+.card .tx{display:block;min-width:0}
+.card b{display:block}
+.card small{color:var(--m);display:block}
 footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--l);color:var(--m);font-size:.9em}
 footer p{text-align:justify}
 a{color:var(--v)}
@@ -29,16 +30,16 @@ a{color:var(--v)}
 <p class="txt">BY INNOVATION conçoit des applications mobiles utiles au quotidien. Chaque application a son propre objectif, sa propre politique de confidentialité et ses propres mentions légales. Les notifications sont peu fréquentes et désactivables.</p>
 
 <h2>Nos applications</h2>
-<a class="card" href="legal/yapa/confidentialite.html"><span class="em">🗣️</span><span><b>Yapa, apprendre une langue</b><small>Mots du jour, quiz et dialogues pour apprendre l'anglais et l'espagnol.</small></span></a>
-<div class="card"><span class="em">🔧</span><span><b>Artisans &amp; Pros</b><small>Trouver un artisan près de chez soi, comparer des devis et suivre ses chantiers.</small></span></div>
-<div class="card"><span class="em">🆘</span><span><b>Secours &amp; Praticiens</b><small>Alerte de secours par SMS et recherche de praticiens de santé.</small></span></div>
-<div class="card"><span class="em">✈️</span><span><b>Voyages &amp; Idées</b><small>Idées de voyage selon la période, le budget et les envies, avec carte climat et valise.</small></span></div>
-<div class="card"><span class="em">🌧️</span><span><b>Alertes Pluie &amp; Vent</b><small>Alertes pluie, vent et orage pour son domicile ou un lieu choisi.</small></span></div>
-<div class="card"><span class="em">📰</span><span><b>Le Fil d'actu</b><small>Actualités classées par impact, avec un zoom détaillé et des dossiers suivis.</small></span></div>
+<div class="card"><span class="em">✈️</span><span class="tx"><b>Voyages &amp; Idées</b><small>Idées de voyage selon la période, le budget et les envies, avec carte climat et valise.</small></span></div>
+<div class="card"><span class="em">🔧</span><span class="tx"><b>Artisans &amp; Pros</b><small>Trouver un artisan près de chez soi, comparer des devis et suivre ses chantiers.</small></span></div>
+<div class="card"><span class="em">🆘</span><span class="tx"><b>Secours &amp; Praticiens</b><small>Alerte de secours par SMS et recherche de praticiens de santé.</small></span></div>
+<div class="card"><span class="em">🌧️</span><span class="tx"><b>Alertes Pluie &amp; Vent</b><small>Alertes pluie, vent et orage pour son domicile ou un lieu choisi.</small></span></div>
+<div class="card"><span class="em">📰</span><span class="tx"><b>Le Fil d'actu</b><small>Actualités classées par impact, avec un zoom détaillé et des dossiers suivis.</small></span></div>
+<a class="card" href="legal/yapa/confidentialite.html"><span class="em">🗣️</span><span class="tx"><b>Yapa, apprendre une langue</b><small>Mots du jour, quiz et dialogues pour apprendre l'anglais et l'espagnol.</small></span></a>
 
 <h2>Confidentialité et mentions légales</h2>
 <p class="txt">Les politiques de confidentialité de chaque application sont accessibles depuis la page de l'application concernée. Pour toute question sur vos données, écrivez-nous à l'adresse de contact ci-dessous.</p>
-<a class="card" href="legal/yapa/confidentialite.html"><span class="em">📄</span><span><b>Yapa, politique de confidentialité</b><small>Données collectées, finalités et droits des utilisateurs.</small></span></a>
+<a class="card" href="legal/yapa/confidentialite.html"><span class="em">📄</span><span class="tx"><b>Yapa, politique de confidentialité</b><small>Données collectées, finalités et droits des utilisateurs.</small></span></a>
 
 <footer>
 <p>Éditeur : BY INNOVATION, Yannick Berthelot, Ventabren (13122), France.<br>
